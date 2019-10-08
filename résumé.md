@@ -23,14 +23,17 @@ email : bhs9194@nate.com
 	* 3학년 겨울에 스타트업 인턴을 하며 웹 개발을 처음 경험했고, *PHP*, *HTTP, CSS, JavaScript, JQuery, MySQL*을 이용했습니다.
 
 
+
 * 삼성전자 무선사업부 인턴 (2017.06 ~ 2017.08)
 	* 6주간 삼성전자 무선사업부에서 인턴사원으로 재직했습니다.
 	* 빅데이터 분석, 안드로이드 애플리케이션 개발을 경험했습니다.
 
 
+
 * 삼성전자 무선사업부 (2018.01 ~ 현재)
 	* *Bixby2.0 Client*를 개발하고 있습니다.
 	* 주로 내부 통신, 상태제어 모듈을 개발하고 있으며 *gRPC*, *Unit testing*을 중점적으로 다루고 있습니다.
+
 
 
 * DE-labtory (2018.09 ~ 현재)
@@ -39,10 +42,12 @@ email : bhs9194@nate.com
 	* 현재는 Decipher으로 대체하여 활동중입니다.
 
 
+
 * Decipher 3기 (2019.01 ~ 현재)
 	* 서울대학교 블록체인 학회 Decipher 3기 학회원으로 활동하고 있습니다.
 	* BFT계열의 합의 알고리즘인 *cleisthenes*의 타원곡선 기반 암호화 로직인 *Threshold Public Key Encryption (TPKE)* 개발을 담당했습니다. (https://github.com/DE-labtory/cleisthenes, https://github.com/DE-labtory/tpke)
 	* 현재는 cosmos의 ics, ibc 연구를 진행하고 있습니다. (2019.10 현재, https://github.com/DE-labtory/ics)
+
 
 
 * 깃뚜라미 (2019.03 ~ 현재)
