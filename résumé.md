@@ -79,7 +79,9 @@ koa : https://github.com/DE-labtory/koa
 ### Threshold Public Key Encryption 개발
 Decipher 3기 활동을 하며 DE-labtory 팀원들과 BFT 계열 합의 알고리즘인 *Cleisthenes*를 개발했고, 저는 그 중 암호화, 복호화 알고리즘인 *Threshold Public Key Encryption (TPKE)* 를 개발했습니다. 
 
-*TPKE* 는 Elliptic-Curve(타원 곡선)의 이산 로그(Discrete logarithm) 문제의 난해함을 기반으로 설계되었습니다. 하나의 *master Public Key* 를 이용하여 여러개의 *Secret Key*, *Verification Key* 를 만들고, 송신자는 *Public key* 를 이용해 메세지를 암호화 합니다. 수신자는 최초 설정한 *Threshold 값 이상* 의 노드들이 자신의 *Secret Key* 를 이용해 만들어낸 *Decryption Share* 를 받아야만 복호화를 완료할 수 있습니다. 
+*TPKE* 는 Elliptic-Curve(타원 곡선)의 이산 로그(Discrete logarithm) 문제의 난해함을 기반으로 설계되었습니다. 
+
+하나의 *master Public Key* 를 이용하여 여러개의 *Secret Key*, *Verification Key* 를 만들고, 송신자는 *Public key* 를 이용해 메세지를 암호화 합니다. 수신자는 최초 설정한 *Threshold 값 이상* 의 노드들이 자신의 *Secret Key* 를 이용해 만들어낸 *Decryption Share* 를 받아야만 복호화를 완료할 수 있습니다. 
 
 Go 언어를 이용하여 개발했고, 자세한 내용은 여기서 확인할 수 있습니다.
 Cleisthenes : https://github.com/DE-labtory/cleisthenes
@@ -88,7 +90,11 @@ TPKE : https://github.com/DE-labtory/tpke
 ***
 
 ### 따로롱 개발
-깃뚜라미 활동을 하며 따릉이 도우미 앱 *따로롱* 을 개발했습니다. 출-도착 정거장과 경유지를 선택하면 거리와 추천 경유지를 알려주는 앱으로, 현재 베타 테스트 중입니다. *Kotlin*, *RxKotlin*, *MVP pattern* 을 이용하여 안드로이드 개발을 진행했습니다. 또한 *Java*, *Spring Boot*를 이용하여 서버 개발을 진행했고, *AWS EC2* (안타깝게도 프리티어 입니다..ㅠ_ㅠ)를 이용해 운용중입니다. 
+깃뚜라미 활동을 하며 따릉이 도우미 앱 *따로롱* 을 개발했습니다. 
+
+출-도착 정거장과 경유지를 선택하면 거리와 추천 경유지를 알려주는 앱으로, 현재 베타 테스트 중입니다. *Kotlin*, *RxKotlin*, *MVP pattern* 을 이용하여 안드로이드 개발을 진행했습니다. 
+
+또한 *Java*, *Spring Boot*를 이용하여 서버 개발을 진행했고, *AWS EC2* (안타깝게도 프리티어 입니다..ㅠ_ㅠ)를 이용해 운용중입니다. 
 
 *Travis-CI*를 이용해 CI 환경을 구축했고, 특히 서버는 Unit-Test Coverage가 떨어지면 Build fail이 나도록 설정하여 Unit-Test에 초점을 맞췄습니다. 그래서 서버 Test Coverage는 약 60% 정도를 유지하고 있습니다. 10월 초에 처음 베타 버전을 출시했고, 지속적으로 운영 / 업데이트 할 예정입니다.
 
@@ -132,15 +138,20 @@ Server : https://github.com/git-tturami/bike-server
 
 ### Object Oriented Programming
 객체 지향 프로그래밍에 관심이 많습니다. OOP의 여러 특징들을 어떻게하면 잘 지킬지 계속 고민하고 있습니다. 여러 디자인 패턴에 대해 공부했고 적용해봤습니다. 
+
 항상 좋은 코드에 대해 고민하고, 어떻게 하면 좋은 코드를 짤 수 있을지 생각하고 있습니다.
+
 Refactoring에도 적극적이며, 빅스비, 따로롱 등 여러 앱에서 주기적으로 코드 개선을 진행하고 있습니다.
+
 처음부터 코드를 완벽하게 짤 수 없다고 생각하기 때문에, 주기적인 Refactoring을 중요하게 생각하고 있습니다.
 
 ***
 
 ### Unit Testing
 유닛 테스트는 제가 가장 관심을 갖고 있고, 유용하다고 생각하는 분야입니다. 
-테스팅을 처음 접하면서 OOP에서 강조하는 다형성에 대해 확실히 이해하게 되었고, 코드의 품질을 개선해주는 가장 좋은 도구라는 생각을 하고 있습니다. 
+
+테스팅을 처음 접하면서 OOP에서 강조하는 다형성에 대해 확실히 이해하게 되었고, 코드의 품질을 개선해주는 가장 좋은 도구라는 생각을 하고 있습니다.
+
 GDG(Google Developer Group)에서는 Unit Testing을 주제로 발표를 하기도 했습니다.
 
 발표 내용과 후기는 여기서 확인할 수 있습니다. 
@@ -153,14 +164,18 @@ TDD도 관심은 있지만, 제대로 지켜본 적은 아직 없습니다.
 
 ### 발표
 처음에는 몰랐지만, 실력을 키우는데는 다양한 행사에 참석하고 발표하는게 굉장히 도움이 된다는 것을 요즘 깨닫고 있습니다. 행사에서 내 지식과 경험을 공유하고, 또 다른 사람들의 경험을 공유하면서 많은 것을 배울 수 있다고 생각합니다.
+
 2019년 8월에 처음으로 GDG 행사에서 Android Unit Testing에 대해 발표했고, Unit Testing을 하면서 배운 OOP와, 테스트 하기 좋은 코드에 대해 발표했습니다.
+
 이번에는 (아직 확정은 나지 않았지만) GDG 수원에서 *따르릉* 앱 개발 후기에 대해 발표하려고 신청한 상태입니다. 또한 Decipher에서도 다양한 주제로 세미나를 진행하고 있습니다.
 
 ***
 
 ### 수학
 어렸을 때 부터 수학을 정말 좋아했습니다. 수학 과외를 꾸준히 할 정도로 나름 자신감도 갖고 있고, 졸업한 지금도 조금씩 공부하고 있습니다.
+
 요즘은 암호학에 관심이 많아서 정수론, 타원 곡선등을 공부하고 있습니다.
+
 그리고 알고리즘 문제 풀이를 즐겨하고 있으며, 삼성전자 SW Certification Professional 등급을 갖고 있고, Backjoon Online Judge 에서는 약 240문제를 풀었습니다.
 
 ***
