@@ -51,23 +51,25 @@ email : bhs9194@nate.com
 	* 동아리원들과 따릉이를 이용한 서울 여행 도우미 안드로이드 애플리케이션 **따로롱**을 개발했습니다.
 	(현재 베타 테스트 중입니다 : https://play.google.com/store/apps/details?id=com.gitturami.bike)
 
+---
+
 ## 프로그래밍 경험
 ### 해외 축구 승률 분석 페이지 개발
 학부 시절 *데이터 베이스 프로젝트* 과목을 수강하며 개발했습니다. 승률 분석을 위해서 *FIFA* 라는 축구 게임에서 제공하는 선수들의 능력치 데이터를 *MySQL*에 넣어 사용했습니다. Front-end는 다들 사용하는 *HTTP, CSS, JavaScript*와 *JQuery*를 이용했고, Back-end는 *PHP*를 이용하여 만들었습니다.
 
----
+***
 
 ### 의류 분석 애플리케이션 개발
 학부 시절 *영상 처리* 과목을 수강하며 개발했습니다. *Java*를 이용한 *Android Application*이며, 의상 이미지 분석은 *OpenCV*를 이용했습니다. 사용자가 의상 사진을 업로드하면, 비슷한 옷 12가지를 추천해주는 간단한 애플리케이션 입니다. 이미지 분석에서는 *OpenCV*의 *Feature matching*을 이용했습니다. 
 
----
+***
 
 ### koa 개발
 DE-labtory 활동을 하며 Smart Contract 개발 언어인 *koa*를 개발했습니다. koa는 lexer-parser-compiler를 거쳐서 Virtual-Machine이 읽는 byte code로 변환되는데, 저는 그 중에서 **parser** 개발을 담당했습니다. parser 개발에는 *Pratt parser*라 불리는 방식을 사용했습니다. 이 방식은 lexer에 의해 나뉜 token들을 재귀적으로 분석하는 방식입니다. 
 자세한 내용은 여기서 확인할 수 있습니다.
 koa : https://github.com/DE-labtory/koa
 
----
+***
 
 ### Threshold Public Key Encryption 개발
 Decipher 3기 활동을 하며 DE-labtory 팀원들과 BFT 계열 합의 알고리즘인 *Cleisthenes*를 개발했고, 저는 그 중 암호화, 복호화 알고리즘인 *Threshold Public Key Encryption (TPKE)* 를 개발했습니다. 
@@ -78,7 +80,7 @@ Go 언어를 이용하여 개발했고, 자세한 내용은 여기서 확인할 
 Cleisthenes : https://github.com/DE-labtory/cleisthenes
 TPKE : https://github.com/DE-labtory/tpke
 
----
+***
 
 ### 따로롱 개발
 깃뚜라미 활동을 하며 따릉이 도우미 앱 *따로롱* 을 개발했습니다. 출-도착 정거장과 경유지를 선택하면 거리와 추천 경유지를 알려주는 앱으로, 현재 베타 테스트 중입니다. *Kotlin*, *RxKotlin*, *MVP pattern* 을 이용하여 안드로이드 개발을 진행했습니다. 또한 *Java*, *Spring Boot*를 이용하여 서버 개발을 진행했고, *AWS EC2* (안타깝게도 프리티어 입니다..ㅠ_ㅠ)를 이용해 운용중입니다. 
@@ -89,7 +91,7 @@ TPKE : https://github.com/DE-labtory/tpke
 App : https://github.com/git-tturami/bike-android
 Server : https://github.com/git-tturami/bike-server
 
----
+***
 
 ### Bixby2.0 Client 개발
 회사에서는 빅스비를 만들고 있습니다. 어떤 걸 사용한다고 말씀은 많이 못 드리지만(눈치..) *Java*와 *다양한 Design Pattern*을 사용하고 있고, 최근에는 *Refactoring* 에 관심을 갖고 있습니다.
@@ -103,12 +105,12 @@ Server : https://github.com/git-tturami/bike-server
 *Java*, *Kotlin*, *Go* 언어를 주로 사용합니다.
 그 외에 맛을 본 언어들은 *PHP*, *Python*, *C, C++* 등이 있습니다.
 
----
+***
 
 ### 프레임워크
 *Android*, *Spring boot* 개발을 경험했습니다.
 
----
+***
 
 ### 협업
 *Git* 을 주로 사용하며, 다양한 기능(merge, rebase, branch 관리, Pull Request 등)을 능숙하게 사용할 수 있습니다.
@@ -121,7 +123,7 @@ Server : https://github.com/git-tturami/bike-server
 ### 프로그래밍
 실력 있고, 인품 좋은 개발자로 성장하여 다른 사람들에게 제 지식을 나눠주고, 동시에 다른 사람으로 부터 배울 점을 찾는 개발자가 되는 것이 꿈입니다. 그리고 코딩을 정말 좋아해서 삶의 가장 많은 시간을 프로그래밍 하는데 쓰고 있습니다.
 
----
+***
 
 ### Object Oriented Programming
 객체 지향 프로그래밍에 관심이 많습니다. OOP의 여러 특징들을 어떻게하면 잘 지킬지 계속 고민하고 있습니다. 여러 디자인 패턴에 대해 공부했고 적용해봤습니다. 
@@ -129,7 +131,7 @@ Server : https://github.com/git-tturami/bike-server
 Refactoring에도 적극적이며, 빅스비, 따로롱 등 여러 앱에서 주기적으로 코드 개선을 진행하고 있습니다.
 처음부터 코드를 완벽하게 짤 수 없다고 생각하기 때문에, 주기적인 Refactoring을 중요하게 생각하고 있습니다.
 
----
+***
 
 ### Unit Testing
 유닛 테스트는 제가 가장 관심을 갖고 있고, 유용하다고 생각하는 분야입니다. 
@@ -142,28 +144,30 @@ GDG(Google Developer Group)에서는 Unit Testing을 주제로 발표를 하기�
 
 TDD도 관심은 있지만, 제대로 지켜본 적은 아직 없습니다.
 
----
+***
 
 ### 발표
 처음에는 몰랐지만, 실력을 키우는데는 다양한 행사에 참석하고 발표하는게 굉장히 도움이 된다는 것을 요즘 깨닫고 있습니다. 행사에서 내 지식과 경험을 공유하고, 또 다른 사람들의 경험을 공유하면서 많은 것을 배울 수 있다고 생각합니다.
 2019년 8월에 처음으로 GDG 행사에서 Android Unit Testing에 대해 발표했고, Unit Testing을 하면서 배운 OOP와, 테스트 하기 좋은 코드에 대해 발표했습니다.
 이번에는 (아직 확정은 나지 않았지만) GDG 수원에서 *따르릉* 앱 개발 후기에 대해 발표하려고 신청한 상태입니다. 또한 Decipher에서도 다양한 주제로 세미나를 진행하고 있습니다.
 
----
+***
 
 ### 수학
 어렸을 때 부터 수학을 정말 좋아했습니다. 수학 과외를 꾸준히 할 정도로 나름 자신감도 갖고 있고, 졸업한 지금도 조금씩 공부하고 있습니다.
 요즘은 암호학에 관심이 많아서 정수론, 타원 곡선등을 공부하고 있습니다.
 그리고 알고리즘 문제 풀이를 즐겨하고 있으며, 삼성전자 SW Certification Professional 등급을 갖고 있고, Backjoon Online Judge 에서는 약 240문제를 풀었습니다.
 
----
+***
 
 ### 투자
 돈은 돈으로 번다는 말을 철썩같이 믿고 있는 개미1 입니다. 주식도 조금 갖고 있고, 비트코인도 조금 들고 있습니다. 다만 마진 거래는 겁이 나서 못하고 있습니다ㅎㅎ;
 
----
+***
 
 ### 게임
 리그 오브 레전드를 즐겨합니다. 탑, 정글 유저이며 티어는 플레티넘 입니다. :)
+
+---
 
 # 감사합니다!
