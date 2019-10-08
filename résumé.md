@@ -53,37 +53,37 @@ email : bhs9194@nate.com
 
 ## 프로그래밍 경험
 ### 해외 축구 승률 분석 페이지 개발
-> 학부 시절 *데이터 베이스 프로젝트* 과목을 수강하며 개발했습니다. 승률 분석을 위해서 *FIFA* 라는 축구 게임에서 제공하는 선수들의 능력치 데이터를 *MySQL*에 넣어 사용했습니다. Front-end는 다들 사용하는 *HTTP, CSS, JavaScript*와 *JQuery*를 이용했고, Back-end는 *PHP*를 이용하여 만들었습니다.
-
+학부 시절 *데이터 베이스 프로젝트* 과목을 수강하며 개발했습니다. 승률 분석을 위해서 *FIFA* 라는 축구 게임에서 제공하는 선수들의 능력치 데이터를 *MySQL*에 넣어 사용했습니다. Front-end는 다들 사용하는 *HTTP, CSS, JavaScript*와 *JQuery*를 이용했고, Back-end는 *PHP*를 이용하여 만들었습니다.
+---
 ### 의류 분석 애플리케이션 개발
-> 학부 시절 *영상 처리* 과목을 수강하며 개발했습니다. *Java*를 이용한 *Android Application*이며, 의상 이미지 분석은 *OpenCV*를 이용했습니다. 사용자가 의상 사진을 업로드하면, 비슷한 옷 12가지를 추천해주는 간단한 애플리케이션 입니다. 이미지 분석에서는 *OpenCV*의 *Feature matching*을 이용했습니다. 
-
+학부 시절 *영상 처리* 과목을 수강하며 개발했습니다. *Java*를 이용한 *Android Application*이며, 의상 이미지 분석은 *OpenCV*를 이용했습니다. 사용자가 의상 사진을 업로드하면, 비슷한 옷 12가지를 추천해주는 간단한 애플리케이션 입니다. 이미지 분석에서는 *OpenCV*의 *Feature matching*을 이용했습니다. 
+---
 ### koa 개발
-> DE-labtory 활동을 하며 Smart Contract 개발 언어인 *koa*를 개발했습니다. koa는 lexer-parser-compiler를 거쳐서 Virtual-Machine이 읽는 byte code로 변환되는데, 저는 그 중에서 **parser** 개발을 담당했습니다. parser 개발에는 *Pratt parser*라 불리는 방식을 사용했습니다. 이 방식은 lexer에 의해 나뉜 token들을 재귀적으로 분석하는 방식입니다. 
+DE-labtory 활동을 하며 Smart Contract 개발 언어인 *koa*를 개발했습니다. koa는 lexer-parser-compiler를 거쳐서 Virtual-Machine이 읽는 byte code로 변환되는데, 저는 그 중에서 **parser** 개발을 담당했습니다. parser 개발에는 *Pratt parser*라 불리는 방식을 사용했습니다. 이 방식은 lexer에 의해 나뉜 token들을 재귀적으로 분석하는 방식입니다. 
 자세한 내용은 여기서 확인할 수 있습니다.
 koa : https://github.com/DE-labtory/koa
-
+---
 ### Threshold Public Key Encryption 개발
-> Decipher 3기 활동을 하며 DE-labtory 팀원들과 BFT 계열 합의 알고리즘인 *Cleisthenes*를 개발했고, 저는 그 중 암호화, 복호화 알고리즘인 *Threshold Public Key Encryption (TPKE)* 를 개발했습니다. 
+Decipher 3기 활동을 하며 DE-labtory 팀원들과 BFT 계열 합의 알고리즘인 *Cleisthenes*를 개발했고, 저는 그 중 암호화, 복호화 알고리즘인 *Threshold Public Key Encryption (TPKE)* 를 개발했습니다. 
 
 *TPKE* 는 Elliptic-Curve(타원 곡선)의 이산 로그(Discrete logarithm) 문제의 난해함을 기반으로 설계되었습니다. 하나의 *master Public Key* 를 이용하여 여러개의 *Secret Key*, *Verification Key* 를 만들고, 송신자는 *Public key* 를 이용해 메세지를 암호화 합니다. 수신자는 최초 설정한 *Threshold 값 이상* 의 노드들이 자신의 *Secret Key* 를 이용해 만들어낸 *Decryption Share* 를 받아야만 복호화를 완료할 수 있습니다. 
 
 Go 언어를 이용하여 개발했고, 자세한 내용은 여기서 확인할 수 있습니다.
 Cleisthenes : https://github.com/DE-labtory/cleisthenes
 TPKE : https://github.com/DE-labtory/tpke
-
+---
 ### 따로롱 개발
-> 깃뚜라미 활동을 하며 따릉이 도우미 앱 *따로롱* 을 개발했습니다. 출-도착 정거장과 경유지를 선택하면 거리와 추천 경유지를 알려주는 앱으로, 현재 베타 테스트 중입니다. *Kotlin*, *RxKotlin*, *MVP pattern* 을 이용하여 안드로이드 개발을 진행했습니다. 또한 *Java*, *Spring Boot*를 이용하여 서버 개발을 진행했고, *AWS EC2* (안타깝게도 프리티어 입니다..ㅠ_ㅠ)를 이용해 운용중입니다. 
+깃뚜라미 활동을 하며 따릉이 도우미 앱 *따로롱* 을 개발했습니다. 출-도착 정거장과 경유지를 선택하면 거리와 추천 경유지를 알려주는 앱으로, 현재 베타 테스트 중입니다. *Kotlin*, *RxKotlin*, *MVP pattern* 을 이용하여 안드로이드 개발을 진행했습니다. 또한 *Java*, *Spring Boot*를 이용하여 서버 개발을 진행했고, *AWS EC2* (안타깝게도 프리티어 입니다..ㅠ_ㅠ)를 이용해 운용중입니다. 
 
 *Travis-CI*를 이용해 CI 환경을 구축했고, 특히 서버는 Unit-Test Coverage가 떨어지면 Build fail이 나도록 설정하여 Unit-Test에 초점을 맞췄습니다. 그래서 서버 Test Coverage는 약 60% 정도를 유지하고 있습니다. 10월 초에 처음 베타 버전을 출시했고, 지속적으로 운영 / 업데이트 할 예정입니다.
 
 자세한 내용은 여기서 확인할 수 있습니다.
 App : https://github.com/git-tturami/bike-android
 Server : https://github.com/git-tturami/bike-server
-
+---
 ### Bixby2.0 Client 개발
-> 회사에서는 빅스비를 만들고 있습니다. 어떤 걸 사용한다고 말씀은 많이 못 드리지만(눈치..) *Java*와 *다양한 Design Pattern*을 사용하고 있고, 최근에는 *Refactoring* 에 관심을 갖고 있습니다.
-
+회사에서는 빅스비를 만들고 있습니다. 어떤 걸 사용한다고 말씀은 많이 못 드리지만(눈치..) *Java*와 *다양한 Design Pattern*을 사용하고 있고, 최근에는 *Refactoring* 에 관심을 갖고 있습니다.
+---
 ## 프로그래밍 능력
 대부분의 프로그래밍 경력은 위에서 설명했으므로, 여기서는 간단하게 정리하겠습니다.
 
